@@ -1,0 +1,219 @@
+/* HTML + body */
+
+html{
+  font-size: 16px;
+  font-family: "PT Sans", PT Sans, sans-serif;
+  color: #1d1e1e;
+  height: 100%;
+  width: 100%;
+  font-weight: lighter;
+  max-width: 100%;
+}
+
+body{
+  min-height: 100%;
+  position: relative;
+  margin: 0;
+ 
+}
+
+h1{
+  color:white;
+  font-weight: lighter;
+  line-height: 2.5rem;
+}
+
+h2{
+  font-weight:lighter;
+}
+
+/*Header and Nav*/
+
+header{
+  background-color:black;
+  padding: 1rem;
+ 
+}
+
+header a{
+  text-align: right;
+  position: absolute;
+  right: 8px;
+  padding-right: 1rem;
+  color:red;
+}
+
+header h3{
+  color:darkgray;
+  font-weight: lighter;
+  line-height: 0rem;
+}
+
+
+nav{
+  display:block;
+  background-color: lightgray;
+  padding: .5rem;
+}
+
+nav a{
+  color: purple;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+    
+}
+
+li{
+  float: left;
+  width: 20%;
+}
+
+li a{
+  display: block;
+  color: purple;
+  text-align: center;
+}
+
+.active{
+  background-color: gray; 
+
+}
+
+/*main*/
+
+main{
+  display: block;
+  float: left;
+  width: 50%;
+  padding-left: 1rem;
+  height: auto;
+  min-height: 400px;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100%;
+}
+.testimonials{
+  font-style: italic;
+}
+
+/*
+.profiles{
+  float:left;
+  height: auto;
+  width: 30%;
+}
+
+.profiles img{
+  height: auto;
+  width: 30%;
+}
+*/
+
+.profiles figure {
+    display: inline-block;
+    margin: 20px; /* adjust as needed */
+    float: left;
+    height: 17rem;
+    width: 25%;
+  vertical-align: middle;
+  padding: 3rem 2rem 2rem 2rem;
+}
+.profiles figure img {
+    vertical-align: top;
+    height: auto;
+    max-width: 100%; 
+    width: auto\9; 
+}
+.profiles figure figcaption {
+    color:blue;
+    text-align: center;
+  padding-top: 3rem;
+}
+
+.liability{
+  text-align: center;
+  width: 100%;
+  padding: 2rem 5rem 2rem 3rem;
+}
+
+.construction img{
+  vertical-align: middle;
+  display: inline-block;
+   max-width: 100%;
+  width: auto\9; 
+}
+/*aside*/
+
+aside{
+  display: block;
+  float:right;
+  border: 3px solid black;
+  padding: 1rem;
+  width: 33%;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  overflow:hidden;
+  margin-right:1rem;
+  box-sizing: border-box;
+
+}
+
+figure{
+text-align:center;
+}
+
+aside h3{
+  text-align: center;
+  font-weight: lighter;
+}
+
+img{
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  width: auto\9; 
+}
+
+aside a{
+  float:right;
+  color: red;
+}
+
+
+/*footer*/
+footer{
+ background-color: black;
+ color:white;
+  clear: both;
+  padding: .8rem;
+  width: 100%;
+  bottom:0;
+
+}
+
+footer p{
+  font-size: .9rem;
+  text-decoration:none;
+  margin: .1rem;
+  padding: .1rem;
+}
+
+footer a{
+  color: red;
+}
+
+.centerfoot{
+  text-align: center;
+  left: 40%;
+  color: white;
+  text-decoration: none;
+}
